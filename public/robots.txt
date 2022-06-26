@@ -2,11 +2,3 @@
 User-agent: *
 Disallow:
 
-
-
-
-
-
-
-
-
