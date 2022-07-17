@@ -13,8 +13,10 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Switch>
+				
 				<Route exact path="/" component={Home}></Route>
 				<Route path="*" component={Home}></Route>
+				
 			</Switch>
 			<ToastContainer />
 		</BrowserRouter>
