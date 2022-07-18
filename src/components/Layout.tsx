@@ -10,7 +10,9 @@ const Layout = (props:any) => {
             <Link className="title flex middle" to="/">
                 <img src="/logo.svg" style={{width:32, height:'auto'}} alt="logo" />
                 <span className="h3">{L['chain']}</span>
+		    
                 <span className="badge">{L['bridge']}</span>
+		    
             </Link>
         </header>
         <main>
